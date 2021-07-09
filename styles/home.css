@@ -36,7 +36,7 @@ body {
 
 .body-section{
     background-image:url(../images/background.png);
-    height: 380px;
+    height: 280px;
 }
 
 .picture > .background-text{
@@ -65,4 +65,20 @@ body {
 
 #logo-img{
     height: 100%;
+}
+
+.body-section{
+    color:gray;
+    font-size: 2.5em;
+    display:flex;
+    justify-content: space-between;
+    padding:50px;
+}
+
+.body-section > .left a, .body-section > .right a{
+    color:black;
+    background-color: rgb(96, 212, 96);
+    text-decoration: none;
+    padding:5px;
+    margin:30px;
 }
